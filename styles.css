@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+  font-family: Poppins, sans-serif;
+  background-color: rgb(5, 28, 50);
+  color: aliceblue;
+  padding:20px;
+  margin-bottom:20px;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(148, 189, 196);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container div {
+  width: 200px;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  flex-grow: 1;
+  flex-basis: 20%;
+}
+
+.card{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Poppins, sans-serif;
+  background-color: rgb(180, 217, 217);
+  border-radius: 5px;
+  border: 2px solid transparent; /* Initial border size and color */
+  transition: border-color 0.4s ease, border-width 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover{
+  border-color: rgb(19, 93, 100); /* New border color on hover */
+  border-width: 2px; /* New border size on hover */
+  cursor: pointer;
+  transform: scale(1.05)
+}
+
+img{
+  border-radius: 5px;
+  border-radius:1px;
+  margin:10px;
+  align-items: center;
+}
+
+img:hover
+{
+  background-color: rgb(25, 132, 149);
+  border-radius: 2px; 
+}
+
+.container div p { 
+  border-radius: 2px;
+  color: black;
+  max-width: fit-content;
+  margin: 5px;
+  padding: 5px;
+}
+
+p{
+  margin:0px;
+}
+
+.icons{
+  display:flex;
+  justify-content:space-evenly;
+  margin-top: 2px;
+}
+
+.material-symbols-outlined{
+  color: rgb(5, 28, 50);
+}
+
+
